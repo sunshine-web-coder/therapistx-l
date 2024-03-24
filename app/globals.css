@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f7f7f7;
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.linkStyleButton {
+    @apply px-8 py-4 bg-teal-600 text-white text-base font-bold rounded-[63px] justify-center items-center gap-2 flex;
+}
+
+.linkStyleButton2 {
+    @apply flex h-[67px] md:h-[83px] w-full items-center justify-center gap-2 rounded-[63px] bg-teal-600 px-8 py-8 text-base font-bold text-white;
+}
+
+.linkStyleButtonTrans {
+    @apply flex h-[67px] md:h-[83px] w-full items-center justify-center gap-2 rounded-[63px] border border-teal-600 px-8 py-8 text-base font-medium text-zinc-800;
+}
+
+section, header {
+    @apply px-4 sm:px-14 w-full;
+}
+
+.inner_section {
+    @apply max-w-[1312px] mx-auto;
+}
